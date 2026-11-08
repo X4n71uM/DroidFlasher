@@ -1,0 +1,6 @@
+{
+  "summary":  "Revised implementation plan for DroidFlasher (`net.xantium.droidflasher`) including a full USB OTG / Target Device Compatibility Audit and fixes for Android 12+ USB permission grants, CDC-ACM DTR/RTS wake signals, and ADB Push/Sideload host authentication.",
+  "updatedAt":  "2026-10-30T13:15:36.252149072Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

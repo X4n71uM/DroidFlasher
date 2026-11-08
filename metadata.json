@@ -1,0 +1,8 @@
+{
+  "name": "DroidFlasher",
+  "description": "Industrial USB OTG firmware flashing, partition backup, and PIT editing suite for Android repair technicians.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

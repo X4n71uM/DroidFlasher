@@ -1,0 +1,34 @@
+name: Bug Report
+description: Create a report to help us improve DroidFlasher
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for contributing to DroidFlasher! Please provide as much detail as possible.
+  - type: input
+    id: host_device
+    attributes:
+      label: Host Device & Android Version
+      description: e.g. Samsung Galaxy S23 (Android 14) / Google Pixel 7 (Android 14)
+    validations:
+      required: true
+  - type: input
+    id: target_device
+    attributes:
+      label: Target Device & Mode
+      description: e.g. SM-S918B in Download Mode / Pixel in Fastboot Mode
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Live Terminal Logs
+      description: Copy and paste the relevant lines from the bottom Terminal Log Dock.
+      render: shell

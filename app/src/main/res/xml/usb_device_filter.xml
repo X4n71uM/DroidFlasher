@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Samsung Download / Odin / Loke Mode & ADB (0x04E8) -->
+    <usb-device vendor-id="1256" product-id="26717" /> <!-- 0x04E8 : 0x685D Download -->
+    <usb-device vendor-id="1256" product-id="26113" /> <!-- 0x04E8 : 0x6601 Download Legacy -->
+    <usb-device vendor-id="1256" product-id="26720" /> <!-- 0x04E8 : 0x6860 MTP + ADB -->
+    <usb-device vendor-id="1256" />                    <!-- All Samsung bootloader/recovery interfaces -->
+
+    <!-- Google / Standard Android Fastboot, Bootloader, ADB & Sideload (0x18D1) -->
+    <usb-device vendor-id="6353" product-id="20192" /> <!-- 0x18D1 : 0x4EE0 Fastboot -->
+    <usb-device vendor-id="6353" product-id="53261" /> <!-- 0x18D1 : 0xD00D Fastboot / Sideload -->
+    <usb-device vendor-id="6353" product-id="20199" /> <!-- 0x18D1 : 0x4EE7 ADB / Recovery Push -->
+    <usb-device vendor-id="6353" />
+
+    <!-- Qualcomm EDL / Sahara 9008 & Diagnostic (0x05C6) -->
+    <usb-device vendor-id="1478" product-id="36872" /> <!-- 0x05C6 : 0x9008 -->
+    <usb-device vendor-id="1478" />
+
+    <!-- MediaTek Preloader / BROM / Fastboot (0x0E8D) -->
+    <usb-device vendor-id="3725" product-id="8192" />  <!-- 0x0E8D : 0x2000 -->
+    <usb-device vendor-id="3725" />
+
+    <!-- Xiaomi (0x2717), OnePlus/Oppo (0x22D9), Motorola (0x22B8), Sony (0x0FCE), ASUS (0x0B05), Nothing (0x2A70) -->
+    <usb-device vendor-id="10007" /> <!-- 0x2717 Xiaomi -->
+    <usb-device vendor-id="8921" />  <!-- 0x22D9 OnePlus / Oppo / Realme -->
+    <usb-device vendor-id="8888" />  <!-- 0x22B8 Motorola -->
+    <usb-device vendor-id="4046" />  <!-- 0x0FCE Sony Flash/Fastboot -->
+    <usb-device vendor-id="2821" />  <!-- 0x0B05 ASUS -->
+    <usb-device vendor-id="10864" /> <!-- 0x2A70 Nothing -->
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DroidFlasher</string>
+    <string name="app_subtitle">USB OTG Flashing, Push &amp; PIT Engineering Suite</string>
+    <string name="tab_usb_device">USB &amp; Link</string>
+    <string name="tab_flasher">Flasher</string>
+    <string name="tab_backup">Backup Studio</string>
+    <string name="tab_pit_editor">PIT Editor</string>
+    <string name="action_scan_usb">Scan USB OTG</string>
+    <string name="action_handshake">Protocol Handshake</string>
+    <string name="action_push_file">Push File to Target</string>
+    <string name="action_start_flash">Execute Flash Sequence</string>
+    <string name="action_start_backup">Start Partition Backup</string>
+    <string name="action_validate_pit">Validate PIT Structure</string>
+    <string name="action_save_pit">Save PIT File</string>
+    <string name="action_open_guide">Workshop SOP Guide</string>
+    <string name="bench_simulator_mode">Safety Simulation Mode</string>
+    <string name="terminal_console_title">LIVE USB OTG &amp; PACKET TELEMETRY LOG</string>
+</resources>

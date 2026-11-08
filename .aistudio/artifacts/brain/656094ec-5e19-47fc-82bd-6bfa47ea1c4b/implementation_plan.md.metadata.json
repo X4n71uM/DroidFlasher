@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for persistent PIT saving and cross-workbench reuse across Selective Flasher and PIT Editor upon pulling from target device.",
+  "updatedAt":  "2026-11-08T07:46:59.187672431Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
